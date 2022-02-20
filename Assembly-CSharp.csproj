@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9584D532-C1AE-1207-164E-4EA99F4713BB}</ProjectGuid>
+    <ProjectGuid>{558A29C5-7193-F374-A4CE-27BD7EB6498E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,10 +58,13 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Fly.cs" />
     <Compile Include="Assets\Script\Move.cs" />
-    <Compile Include="Assets\Script\PipeSpawner.cs" />
-    <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\Score.cs" />
+    <Compile Include="Assets\Script\GameManager.cs" />
+    <Compile Include="Assets\Script\PipeSpawner.cs" />
     <Compile Include="Assets\Script\AddScore.cs" />
+    <Compile Include="Assets\Script\AddScoreMoney.cs" />
+    <Compile Include="Assets\Script\MoneySpawner.cs" />
+    <Compile Include="Assets\Script\Money.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
